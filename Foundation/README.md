@@ -40,10 +40,7 @@ dependencyResolutionManagement {
 - Swift 5.0 or later
 - iOS 13.0 or later
 
-## How to Use
-
-Simply copy the following Swift code into your project.
-
+## Code
 ```swift
 import Foundation
 
@@ -58,7 +55,7 @@ guard let url = components.url else {
     fatalError("Could not create URL from components")
 }
 
-// Create a URLSession
+// Get Default URLSession
 let session = URLSession.shared
 
 // Create a network task for the GET request
@@ -95,6 +92,7 @@ task.resume()
 - Foundation (CAFSoft) 2.5.7
 - Java 11 or later
 
+## Code
 ```java
 // Initialize URLComponents
 var components = new URLComponents();
