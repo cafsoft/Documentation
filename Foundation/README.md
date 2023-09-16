@@ -49,6 +49,10 @@ var components = URLComponents()
 components.scheme = "https"
 components.host = "api.example.com"
 components.path = "/data"
+components.queryItems = [
+    URLQueryItem(name: "parameter1", value: "value1"),
+    URLQueryItem(name: "parameter2", value: "value2")
+]
 
 // Generate the URL from the components
 guard let url = components.url else {
@@ -99,6 +103,10 @@ var components = new URLComponents();
 components.setScheme("https");
 components.setHost("api.example.com");
 components.setPath("/data");
+components.setQueryItems(new URLQueryItem[]{
+  new URLQueryItem("parameter1", "value1"),
+  new URLQueryItem("parameter2", "value2")
+});
 
 // Generate the URL from the components
 var url = components.getURL();
