@@ -31,4 +31,6 @@ dependencyResolutionManagement {
          implementation 'com.github.cafsoft:CAFSoftFoundation:2.5.7'
    }
    ```
+## Example codes
 
+[PRE request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_PRE_Request.md)
