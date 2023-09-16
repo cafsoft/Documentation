@@ -123,12 +123,13 @@ var task = session.dataTask(url, (data, response, error) -> {
         return;
     }
 
-    // Check the status code
+    // Verify that the response is an HTTPURLResponse object
     if (response instanceof HTTPURLResponse) {
         var httpResponse = (HTTPURLResponse) response;
 
-        // Process the received data
+        // Check the status code
         if (httpResponse.getStatusCode() == 200) {
+            // Process the received data
             if (data != null) {
                 System.out.println(data.toText());
             }
