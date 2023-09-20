@@ -10,7 +10,7 @@ CAFSoftFoundation is a software development framework written in Java, designed 
 
 To install the library add: 
 
-- Repository to settings.gradle
+- Add https://jitpack.io repository in settings.gradle
 
 ```gradle
 dependencyResolutionManagement {
@@ -23,14 +23,25 @@ dependencyResolutionManagement {
 }
 ```
 
-- Library to build.gradle (Module):
+- Add CAFSoftFoundation library in build.gradle (Module)
 
  
    ```gradle
    dependencies {
-         implementation 'com.github.cafsoft:CAFSoftFoundation:2.5.7'
+         implementation 'com.github.cafsoft:CAFSoftFoundation:2.5.9'
    }
    ```
+
+- Add Java 11 Compatibility in build.gradle (Module)
+  ```
+  compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+  }
+   ```
+Note: Remember to save and sync after making the above settings.
+
+  
 ## Example codes
 
 [PRE request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_PRE_Request.md)
