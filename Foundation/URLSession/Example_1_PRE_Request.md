@@ -1,4 +1,4 @@
-# Example: PRE request using URLSession
+# Example: PRE request using default URLSession
 
 ## Swift language
 ## Requirements
@@ -62,7 +62,7 @@ task.resume()
 - Foundation (CAFSoft) 2.5.7
 - Java 11 or later
 
-## Java code
+## Code
 ```java
 // Initialize URLComponents
 var components = new URLComponents();
