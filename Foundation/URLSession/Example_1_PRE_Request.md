@@ -59,7 +59,7 @@ task.resume()
 
 ## Java language
 ## Requirements
-- Foundation (CAFSoft) 2.5.7
+- Foundation (CAFSoft) 2.5.9
 - Java 11 or later
 
 ## Code
