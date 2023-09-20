@@ -44,4 +44,5 @@ Note: Remember to save and sync after making the above settings.
   
 ## Example codes
 
-[PRE request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_PRE_Request.md)
+- [PRE request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_PRE_Request.md)
+- [POST request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_POST_Request.md)
