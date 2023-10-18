@@ -28,7 +28,7 @@ dependencyResolutionManagement {
  
    ```gradle
    dependencies {
-         implementation 'com.github.cafsoft:CAFSoftFoundation:2.5.9'
+         implementation 'com.github.cafsoft:CAFSoftFoundation:2.6.0'
    }
    ```
 
