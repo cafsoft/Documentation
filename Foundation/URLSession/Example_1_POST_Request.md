@@ -37,7 +37,7 @@ request.httpBody = bodyData
 // Get default URLSession
 let session = URLSession.shared
 
-// Create a network task for the POST request
+// Create a URLSessionTask (network task) for the request
 let task = session.dataTask(with: request) { (data, response, error) in
     // Handle general errors
     if let error = error {
@@ -96,7 +96,7 @@ request.setHttpBody(bodyData);
 // Get default URLSession
 var session = URLSession.getShared();
 
-// Create a network task for the POST request
+// Create a URLSessionTask (network task) for the request
 var task = session.dataTask(request, (data, response, error) -> {
 
     // Handle general errors
