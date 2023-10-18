@@ -59,7 +59,7 @@ task.resume()
 
 ## Java language
 ## Requirements
-- Foundation (CAFSoft) 2.5.9
+- Foundation (CAFSoft)
 - Java 11 or later
 
 ## Code
@@ -77,11 +77,14 @@ components.setQueryItems(new URLQueryItem[]{
 // Generate the URL from the components
 var url = components.getURL();
 
+// Create GET request
+var request = new URLRequest(url);
+
 // Get Default URLSession
 var session = URLSession.getShared();
 
-// Create a network task for the GET request
-var task = session.dataTask(url, (data, response, error) -> {
+// Create a network task for the request
+var task = session.dataTask(request, (data, response, error) -> {
 
     // Handle general errors
     if (error != null){
