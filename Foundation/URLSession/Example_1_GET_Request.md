@@ -26,7 +26,7 @@ guard let url = components.url else {
     fatalError("Could not create URL from components")
 }
 
-// Create a URLRequest 
+// Create a URLRequest (GET)
 var request = URLRequest(url: url)
 
 // Get Default URLSession
@@ -80,7 +80,7 @@ components.setQueryItems(new URLQueryItem[]{
 // Generate the URL from the components
 var url = components.getURL();
 
-// Create URLRequest
+// Create URLRequest (GET)
 var request = new URLRequest(url);
 
 // Get Default URLSession
