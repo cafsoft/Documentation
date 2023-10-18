@@ -26,11 +26,14 @@ guard let url = components.url else {
     fatalError("Could not create URL from components")
 }
 
+// Create a URLRequest 
+var request = URLRequest(url: url)
+
 // Get Default URLSession
 let session = URLSession.shared
 
-// Create a network task for the GET request
-let task = session.dataTask(with: url) { (data, response, error) in
+// Create a URLSessionTask (network task) for the request
+let task = session.dataTask(with: request) { (data, response, error) in
     // Handle general errors
     if let error = error {
         print("Error: \(error)")
@@ -77,13 +80,13 @@ components.setQueryItems(new URLQueryItem[]{
 // Generate the URL from the components
 var url = components.getURL();
 
-// Create GET request
+// Create URLRequest
 var request = new URLRequest(url);
 
 // Get Default URLSession
 var session = URLSession.getShared();
 
-// Create a network task for the request
+// Create a URLSessionTask (network task) for the request
 var task = session.dataTask(request, (data, response, error) -> {
 
     // Handle general errors
