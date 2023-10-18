@@ -5,7 +5,6 @@
 
 - Foundation (Apple)
 - Swift 5.0 or later
-- iOS 13.0 or later
 
 ## Code
 ```swift
