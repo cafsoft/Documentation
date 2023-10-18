@@ -22,7 +22,7 @@ guard let url = components.url else {
     fatalError("Could not create URL from components")
 }
 
-// Create a URLRequest 
+// Create a URLRequest (POST)
 var request = URLRequest(url: url)
 request.httpMethod = "POST"
 
@@ -67,7 +67,7 @@ task.resume()
 
 ## Java language
 ## Requirements
-- Foundation (CAFSoft) 2.5.9
+- Foundation (CAFSoft)
 - Java 11 or later
 
 ## Code
@@ -81,7 +81,7 @@ components.setPath("/data");
 // Generate the URL from the components
 var url = components.getURL();
 
-// Create a URLRequest 
+// Create a URLRequest (POST)
 var request = new URLRequest(url)
 request.setHttpMethod("POST")
 
