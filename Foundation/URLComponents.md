@@ -1,7 +1,7 @@
 # URLComponents class
 The URLComponents class provides a structured way to construct and decompose URLs (Uniform Resource Locators). When working with URLs, it is often useful to break them down into their individual components, such as the scheme, host, path, and query parameters.
 
-## Java source code
+## Java languaje
 
 ### Example 1
 ```java
