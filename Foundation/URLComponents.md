@@ -20,7 +20,7 @@ var url = components.getURL();
 // Create a URLRequest instance with an URL
 var components = new URLComponents("https://api.example.com/data");
 
-// Add query params
+// Add query parameters
 components.setQueryItems(new URLQueryItem[]{
   new URLQueryItem("parameter1", "value1"),
   new URLQueryItem("parameter2", "value2")
@@ -32,7 +32,7 @@ var url = components.getURL();
 
 ### Example 3
 ```java
-// Create a empty URLRequest instance
+// Create an empty URLRequest instance
 var components = new URLComponents();
 
 // Add components
@@ -40,7 +40,7 @@ components.setScheme("https");
 components.setHost("api.example.com");
 components.setPath("/data");
 
-// Add query params
+// Add query parameters
 components.setQueryItems(new URLQueryItem[]{
   new URLQueryItem("parameter1", "value1"),
   new URLQueryItem("parameter2", "value2")
