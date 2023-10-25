@@ -5,7 +5,19 @@ The URLComponents class provides a structured way to construct and decompose URL
 
 ### Example 1
 ```java
-// Initialize URLComponents with an URL
+// Create a URLRequest instance with an URL
+var components = new URLComponents("https://api.example.com/data");
+
+// Set query component
+components.setQuery("parameter1=value1&parameter2=value2");
+
+// Generate the URL from the components
+var url = components.getURL();
+```
+
+### Example 2
+```java
+// Create a URLRequest instance with an URL
 var components = new URLComponents("https://api.example.com/data");
 
 // Add query params
@@ -18,9 +30,9 @@ components.setQueryItems(new URLQueryItem[]{
 var url = components.getURL();
 ```
 
-### Example 2
+### Example 3
 ```java
-// Initialize URLComponents empty
+// Create a empty URLRequest instance
 var components = new URLComponents();
 
 // Add components
