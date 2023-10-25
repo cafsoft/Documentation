@@ -13,7 +13,7 @@ var task = session.dataTask(request, (data, response, error) -> {
   // Handle response here
 });
 
-// Start the task
+// Start the asynchronous task
 task.resume();
 ```
 ### Example 2
@@ -46,6 +46,6 @@ var task = session.dataTask(request, (data, response, error) -> {
     }
 });
 
-// Start the task
+// Start the asynchronous task
 task.resume();
 ```
