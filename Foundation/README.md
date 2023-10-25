@@ -1,11 +1,14 @@
 # Foundation (CAFSoft)
 
-CAFSoftFoundation is a software development framework written in Java, designed to offer some network communication functionalities similar to those of Apple's Foundation framework.
+Foundation is a software development framework written in Java, designed to offer some network communication functionalities similar to those of Apple's Foundation framework.
 
-[![](https://jitpack.io/v/cafsoft/CAFSoftFoundation.svg)](https://jitpack.io/#cesarfrancoe/CAFSoftFoundation)
+## Setting
+- [Settings in an Android Studio Gradle project](https://github.com/cafsoft/Documentation/blob/main/Foundation/SettingASGP.md)
 
-
-[https://jitpack.io/#cafsoft/CAFSoftFoundation](https://jitpack.io/#cesarfrancoe/CAFSoftFoundation)
+## Documentation
+- [URLComponents](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLComponents.md)
+- [URLRequest](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLRequest.md)
+- [URLSessionDataTask](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSessionDataTask.md)
 
   
 ## Example codes
