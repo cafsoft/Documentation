@@ -2,7 +2,7 @@
 
 The URLRequest class represents information about an HTTP request such as the URL, method (GET, POST, PUT, etc.), headers, and a the body.
 
-## Java source code
+## Java language
 
 ### Example
 
