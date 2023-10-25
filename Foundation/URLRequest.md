@@ -7,7 +7,7 @@ The URLRequest class represents information about an HTTP request such as the UR
 ### Example
 
 ```java
-// Create a URLRequest instance
+// Create a URLRequest instance with an URL
 var request = new URLRequest(url);
 
 // Set HTTP method
