@@ -9,7 +9,7 @@ URLSessionDownloadTask is a class that manages downloading files directly from t
 var session = URLSession.getShared();
 
 // Create a URLSessionTask (network task) for the request
-var task = session.downloadTask(request, (location, response, error) -> {
+var task = session.downloadTask(request, (localURL, response, error) -> {
   // Manage downloaded file here
 });
 
