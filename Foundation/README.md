@@ -3,7 +3,7 @@
 Foundation is a software development framework written in Java, designed to offer some network communication functionalities similar to those of Apple's Foundation framework.
 
 ## Settings
-- [Settings in an Android Studio Gradle project](https://github.com/cafsoft/Documentation/blob/main/Foundation/SettingASGP.md)
+- [How add Foundation to a Android Studio Gradle Project](https://github.com/cafsoft/Documentation/blob/main/Foundation/SettingASGP.md)
 
 ## Documentation
 - [URLComponents](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLComponents.md)
