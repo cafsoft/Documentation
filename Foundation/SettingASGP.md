@@ -32,7 +32,7 @@ compileOptions {
 }
    ```
 
-## Add Internet permission (Only Android Studio Gradle project)
+## Add Internet permission
 Add Internet perssion in AndroidManifiest.xml
 ```xml
 <manifest ... >
