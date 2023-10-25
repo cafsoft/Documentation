@@ -9,6 +9,7 @@ Foundation is a software development framework written in Java, designed to offe
 - [URLComponents](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLComponents.md)
 - [URLRequest](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLRequest.md)
 - [URLSessionDataTask](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSessionDataTask.md)
+- [URLSessionDownloadTask](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSessionDownloadTask.md)
 
   
 ## Example codes
