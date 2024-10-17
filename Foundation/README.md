@@ -16,3 +16,4 @@ Foundation is a software development framework written in Java, designed to offe
 
 - [GET request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_GET_Request.md)
 - [POST request using default URLSession](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_1_POST_Request.md)
+- [Create Remote Data Source Class](https://github.com/cafsoft/Documentation/blob/main/Foundation/URLSession/Example_3_Create_Data_Source_Class.md)
