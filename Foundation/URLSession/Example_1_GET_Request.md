@@ -1,4 +1,4 @@
-# Example: PRE request using default URLSession
+# Example: GET request using default URLSession
 
 ## Swift language
 ## Requirements
