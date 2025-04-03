@@ -3,7 +3,8 @@
 ## Java language
 ## Requirements
 - Foundation (CAFSoft)
-- Java 11 or later 
+- Java 11 or later
+- Android SDK (Bitmap and BitmapFactory classes) 
 
 ## Code
 ```java
@@ -98,24 +99,23 @@ public class RemoteDataSource {
         });
     }
 
-    public interface DataCompletionHandler {
-        void run(Data data);
+    public interface CompletionHandler<T> {
+        void run(T t);
     }
 
-    public interface URLCompletionHandler {
-        void run(URL url);
+    public interface DataCompletionHandler extends CompletionHandler<Data> {
     }
 
-    public interface TextCompletionHandler {
-        void run(String text);
+    public interface URLCompletionHandler extends CompletionHandler<URL> {
     }
 
-    public interface ImageCompletionHandler {
-        void run(Bitmap image);
+    public interface TextCompletionHandler extends CompletionHandler<String>{
     }
 
-    public interface ErrorCodeCompletionHandler {
-        void run(int errorCode);
+    public interface ImageCompletionHandler extends CompletionHandler<Bitmap> {
+    }
+
+    public interface ErrorCodeCompletionHandler extends CompletionHandler<Integer> {
     }
 }
 ```
